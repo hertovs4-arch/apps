@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
   card.className = 'card';
 
   const title = document.createElement('h1');
-  title.textContent = '🎭 Генератор отмазок';
+  title.textContent = 'Генератор отмазок';
 
   const subtitle = document.createElement('p');
   subtitle.className = 'subtitle';
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const button = document.createElement('button');
   button.className = 'btn';
-  button.textContent = 'Сгенерировать отмазку 🚀';
+  button.textContent = 'Сгенерировать отмазку ';
 
   card.appendChild(title);
   card.appendChild(subtitle);
